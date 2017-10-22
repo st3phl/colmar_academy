@@ -33,6 +33,7 @@ h3 {
 
 p {
   line-height: 1.5;
+  font-weight: 300;
 }
 
 img {
@@ -147,4 +148,46 @@ nav span {
 .info-title a {
   display: block;
   margin-top: 1rem;
+}
+
+/* COURSES */
+
+.courses {
+  flex-direction: column;
+  background-color: #f2f2f2;
+}
+
+.courses h2 {
+  text-align: center;
+}
+
+.courses-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 3rem;
+}
+
+.courses-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 2rem;
+}
+
+.course-item {
+  flex-basis: 33.33%;
+  margin-right: 2rem;
+  background-color: #fff;
+}
+
+.course-item:last-child {
+  margin-right: 0;
+}
+
+.course-title {
+  padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.course-title p {
+  margin-top: 0.5rem;
 }
