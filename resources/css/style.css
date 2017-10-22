@@ -57,8 +57,11 @@ button {
 /* CONTAINERS */
 
 .container {
-  display: flex;
   padding: 2rem 1.5rem;
+}
+
+.flex {
+  display: flex;
 }
 
 .sub-section-left {
@@ -126,26 +129,26 @@ nav span {
 
 /* INFORMATION */
 
-.info-item {
+.card {
   display: flex;
   align-items: center;
   padding: 1rem
 }
 
-.info-item:first-child {
+.card:first-child {
   padding-top: 0;
 }
 
-.info-img {
+.card-img {
   width: 35%;
 }
 
-.info-title {
+.card-title {
   width: 65%;
   margin-left: 1.5rem;
 }
 
-.info-title a {
+.card-title a {
   display: block;
   margin-top: 1rem;
 }
@@ -174,20 +177,30 @@ nav span {
   margin-top: 2rem;
 }
 
-.course-item {
+.course-card {
   flex-basis: 33.33%;
   margin-right: 2rem;
   background-color: #fff;
 }
 
-.course-item:last-child {
+.course-card:last-child {
   margin-right: 0;
 }
 
-.course-title {
+.course-card-title {
   padding: 1rem 1rem 1.5rem 1rem;
 }
 
-.course-title p {
+.course-card-title p {
   margin-top: 0.5rem;
+}
+
+/* THESIS EXHIBIT */
+
+.thesis h2 {
+  text-align: center;
+}
+
+.thesis .flex {
+  margin-top: 2rem;
 }
