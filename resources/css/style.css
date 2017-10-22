@@ -26,8 +26,23 @@ h3 {
   line-height: 1.5;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 .container {
+  display: flex;
   padding: 2rem 1.5rem;
+}
+
+.sub-section-left {
+  width: 60%;
+}
+
+.sub-section-right {
+  width: 40%;
+  padding-left: 1.5rem;
 }
 
 button {
@@ -75,24 +90,12 @@ nav span {
 
 .banner {
   background-color: #f2f2f2;
-  display: flex;
-}
-
-.banner-img {
-  width: 60%;
-}
-
-.banner-img img {
-  width: 100%;
-  height: auto;
 }
 
 .banner-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 1.5rem;
-  padding-right: 10%;
 }
 
 .banner-title h3 {
