@@ -204,3 +204,21 @@ nav span {
 .thesis .flex {
   margin-top: 2rem;
 }
+
+.thesis .hero-caption p {
+  margin-top: 0.5rem;
+}
+
+/* FOOTER */
+
+footer {
+  border-top: 1px solid #ccc;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer a {
+  margin-left: 1rem;
+}
