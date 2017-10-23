@@ -208,6 +208,11 @@ nav span {
   margin-top: 0.5rem;
 }
 
+.course-card-title p:first-of-type {
+  text-transform: uppercase;
+  color: #fb3640;
+}
+
 /* THESIS EXHIBIT */
 
 .thesis {
