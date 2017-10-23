@@ -12,18 +12,26 @@ body {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Droid sans", "Arial", sans-serif;\
+  color: #0a2239;
 }
 
 h1 {
   font-size: 3.5rem;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.1;
 }
 
 h2 {
   font-size: 2.5rem;
-  font-weight: 500;
+  font-weight: 700;
+  color: #0a2239;
 }
 
 h3 {
@@ -90,6 +98,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1.5rem;
+  background-color: #fb3640;
 }
 
 .logo {
@@ -100,22 +109,20 @@ header {
 
 .logo span:first-of-type {
   font-weight: 500;
-  color: cornflowerblue;
+  color: #fff;
 }
 
 .logo span:last-of-type {
   font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 nav span {
   margin-left: 1rem;
+  font-weight: 300;
 }
 
 /* MAIN BANNER */
-
-.banner {
-  background-color: #f2f2f2;
-}
 
 .banner-title {
   display: flex;
@@ -125,9 +132,15 @@ nav span {
 
 .banner-title h3 {
   margin: 1.5rem 0;
+  font-weight: 300;
+  font-family: "Roboto", "Arial", sans-serif;
 }
 
 /* INFORMATION */
+
+.info {
+  background-color: #eef0f2;
+}
 
 .card {
   display: flex;
@@ -151,13 +164,13 @@ nav span {
 .card-title a {
   display: block;
   margin-top: 1rem;
+  color: #5386E4;
 }
 
 /* COURSES */
 
 .courses {
   flex-direction: column;
-  background-color: #f2f2f2;
 }
 
 .courses h2 {
@@ -180,7 +193,7 @@ nav span {
 .course-card {
   flex-basis: 33.33%;
   margin-right: 2rem;
-  background-color: #fff;
+  background-color: #eef0f2;
 }
 
 .course-card:last-child {
@@ -197,6 +210,10 @@ nav span {
 
 /* THESIS EXHIBIT */
 
+.thesis {
+  background-color: rgba(238, 240, 242, 0.35);
+}
+
 .thesis h2 {
   text-align: center;
 }
@@ -212,11 +229,12 @@ nav span {
 /* FOOTER */
 
 footer {
-  border-top: 1px solid #ccc;
+  background-color: #ACBDBA;
   padding: 1rem 1.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-size: 0.875rem;
 }
 
 footer a {
