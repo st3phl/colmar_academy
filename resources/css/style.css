@@ -93,7 +93,8 @@ button {
 
 .author {
   font-size: 0.875rem;
-  font-weight: 400;
+  font-weight: 300;
+  font-style: italic;
   color: #0A2239;
 }
 
@@ -440,6 +441,7 @@ footer a {
 
   .banner-title {
     margin: 2rem 0;
+    font-size: 1.25rem;
   }
 
   .banner-title h3 {
