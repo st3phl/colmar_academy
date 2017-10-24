@@ -37,6 +37,7 @@ h2 {
 h3 {
   font-size: 1.75rem;
   line-height: 1.5;
+  color: #0a2239;
 }
 
 p {
@@ -60,6 +61,11 @@ button {
   width: 12rem;
   border-radius: 0.25rem;
   cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+
+button:hover {
+  background-color: hsl(209, 60%, 33%);
 }
 
 /* CONTAINERS */
@@ -133,6 +139,14 @@ nav span {
   font-weight: 300;
 }
 
+nav span a {
+  transition: color 0.2s linear;
+}
+
+nav span a:hover {
+  color: hsl(220,7%,82%);
+}
+
 .mobile-nav {
   display: none;
 }
@@ -163,22 +177,29 @@ nav span {
   margin: 1.5rem 0;
   font-weight: 300;
   font-family: "Roboto", "Arial", sans-serif;
+  color: #000;
 }
 
 /* INFORMATION */
 
 .info {
-  background-color: #eef0f2;
+  background-color: rgba(238, 240, 242, 0.45);
 }
 
-.card {
+.card a {
   display: flex;
   align-items: center;
-  padding: 1rem
+  padding: 1rem;
+  background-color: #fff;
+  transition: background-color 0.4s ease-in-out;
 }
 
-.card:first-child {
-  padding-top: 0;
+.card a:hover {
+  background-color: rgba(172, 189, 186, 0.3);
+}
+
+.card a:hover .card-title .more {
+  color: hsl(219, 83%, 41%);
 }
 
 .card-img {
@@ -196,10 +217,10 @@ nav span {
 
 .card-title p {
   padding: 0.5rem 0;
+  color: #000;
 }
 
-.card-title a {
-  display: block;
+.card-title .more {
   color: #5386E4;
 }
 
@@ -253,7 +274,7 @@ nav span {
 /* THESIS EXHIBIT */
 
 .thesis {
-  background-color: rgba(238, 240, 242, 0.35);
+  background-color: rgba(238, 240, 242, 0.45);
 }
 
 .thesis h2 {
@@ -282,6 +303,11 @@ footer {
 
 footer a {
   margin-left: 1rem;
+  transition: color 0.2s linear;
+}
+
+footer a:hover {
+  color: hsl(209, 60%, 33%);
 }
 
 /* MEDIA QUERIES */
@@ -466,18 +492,15 @@ footer a {
     padding: 1rem;
   }
 
-  .card {
-    padding: 1rem 0 2rem 0;
+  .info .sub-section-right {
+    padding: 0;
+  }
+
+  .card a {
+    padding: 1rem 1rem 2rem 1rem;
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  .card:first-child {
-    padding-top: 1rem;
-  }
-
-  .card:last-child {
-    padding-bottom: 1rem;
+    background-color: transparent;
   }
 
   .card-img {
