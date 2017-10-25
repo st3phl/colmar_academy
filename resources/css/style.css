@@ -18,7 +18,7 @@ a {
 h1,
 h2,
 h3 {
-  font-family: "Droid sans", "Arial", sans-serif;\
+  font-family: "Droid sans", "Arial", sans-serif;
   color: #0a2239;
 }
 
@@ -144,7 +144,8 @@ nav span a {
 }
 
 nav span a:hover {
-  color: hsl(220,7%,82%);
+  color: hsl(209, 60%, 13%);
+  /*font-weight: 400;*/
 }
 
 .mobile-nav {
